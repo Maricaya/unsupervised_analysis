@@ -1,0 +1,25 @@
+name: snakemake_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy==1.21.6
+  - pandas
+  - scikit-learn
+  - scipy
+  - plotly
+  - numba
+  - numap-learn==0.5.1
+  - pymcdm
+  - snakemake
+  - r-base
+  - r-ggplot2
+  - r-reshape2
+  - r-complexheatmap
+  - r-data.table
+  - r-fastcluster
+  - r-patchwork
+  - r-igraph
+  - r-clustree
+  - r-ggally
+  - bioconductor-biocmanager
