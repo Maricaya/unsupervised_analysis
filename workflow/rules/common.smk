@@ -189,3 +189,6 @@ def get_fastqs(wc):
 
 def get_contrast(wildcards):
     return config["diffexp"]["contrasts"][wildcards.contrast]
+
+
+
